@@ -34,5 +34,9 @@
     "tailwindcss": "^4",
     "tsx": "^4.19.4",
     "typescript": "^5"
-  }
+  },
+  "trustedDependencies": [
+    "@tailwindcss/oxide",
+    "unrs-resolver"
+  ]
 }
