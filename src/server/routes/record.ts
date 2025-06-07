@@ -1,6 +1,7 @@
+import { AuthType } from "@/auth"
 import { Hono } from "hono"
 
-const record = new Hono()
+const record = new Hono<{ Bindings: AuthType }>()
 
 record.get("/", (c) => c.text("ALL RECORDS GET"))
 
