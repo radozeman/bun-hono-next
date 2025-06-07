@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@t3-oss/env-nextjs": "^0.13.6",
+    "hono": "^4.7.10",
+    "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.2"
+    "zod": "^3.25.56"
   },
   "devDependencies": {
     "typescript": "^5",
